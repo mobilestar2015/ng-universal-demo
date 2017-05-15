@@ -1,3 +1,3 @@
 export const config = {
-    baseUrl : `https://localhost/`
+    baseUrl : `https://toshyodev-cv.herokuapp.com/`
 };
