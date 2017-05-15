@@ -15,7 +15,7 @@
     "server": "nodemon dist/server.js",
     "watch": "webpack --watch",
     "postinstall": "npm run build:prod",
-    "deploy" : "git push origin master && git push heroku master"
+    "deploy": "git push origin master && git push heroku master"
   },
   "engines": {
     "node": ">=6.0.0"
