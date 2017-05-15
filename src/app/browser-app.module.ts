@@ -8,7 +8,7 @@ import { BrowserTransferStateModule } from '../modules/transfer-state/browser-tr
 	bootstrap: [ AppComponent ],
 	imports: [
     BrowserModule.withServerTransition({
-      appId: 'my-app-id'
+      appId: 'ng-universal-demo'
     }),
     BrowserTransferStateModule,
     AppModule

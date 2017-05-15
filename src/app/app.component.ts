@@ -4,9 +4,11 @@ import { TransferState } from '../modules/transfer-state/transfer-state';
 @Component({
 	selector: 'demo-app',
 	template: `
-	  <h1>Universal Demo</h1>
-	  <a routerLink="/">Home</a>
-	  <a routerLink="/lazy">Lazy</a>
+	  <h1>Angular Universal Demo</h1>
+    <div class="nav">
+      <a routerLink="/">Home</a>
+      <a routerLink="/lazy">Lazy</a>
+    </div>
 	  <router-outlet></router-outlet>
 	`,
   styles: [

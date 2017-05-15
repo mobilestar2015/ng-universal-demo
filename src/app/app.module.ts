@@ -4,7 +4,7 @@ import { APP_BASE_HREF, CommonModule } from '@angular/common';
 import { HttpModule } from '@angular/http';
 import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
-import { HomeView } from './home/home-view.component';
+import { HomeView } from './home/home.component';
 import { TransferHttpModule } from '../modules/transfer-http/transfer-http.module';
 
 

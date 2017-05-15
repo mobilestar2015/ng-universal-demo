@@ -32,7 +32,7 @@ export function onBootstrap(appRef: ApplicationRef, transferState: TransferState
   ],
   imports: [
     BrowserModule.withServerTransition({
-      appId: 'my-app-id'
+      appId: 'ng-universal-demo'
     }),
     ServerModule,
     ServerTransferStateModule,
