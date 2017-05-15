@@ -13,7 +13,9 @@
     "prebuild:prod": "npm run clean",
     "clean": "rimraf dist",
     "server": "nodemon dist/server.js",
-    "watch": "webpack --watch"
+    "watch": "webpack --watch",
+    "postinstall": "npm run build:prod",
+    "deploy" : "git push origin master && git push heroku master"
   },
   "engines": {
     "node": ">=6.0.0"
